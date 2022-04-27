@@ -1,4 +1,5 @@
 # Ignore CI build directory
+.*/
 build/
 xcuserdata
 cmake-build-debug/
@@ -23,6 +24,7 @@ Win32-Debug/
 Win32-Release/
 x64-Debug/
 x64-Release/
+build/
 
 # Ignore autoconf / automake files
 Makefile.in
